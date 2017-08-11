@@ -13,15 +13,16 @@ estos
 ## y 3 columnas.... y preguntar por el dato de la matriz en el 
 ## renglon 3 y columna 3
 1)
-A<-11:31
-dim(A)<-c(5,4)
+k<-11:30
+dim(k)<- c(5,4)
+k
 View(A)
-rownames(A)<-c("Toluca","Pachuca","Guadalajara","Monterrey")
-colnames(A)<-c("Escuela1","Escuela2","Escuela3","Escuela4","Escuela5")
-A
-A["Toluca","Escuela3"
-A["Guadalajara","Escuela5"]
-A["Pachuca","Escuela1"]
+rownames(k) <-c ("Escuela1","Escuela2","Escuela3","Escuela4","Escuela5")
+colnames(k) <-c ("Toluca", "Pachuca","Guadalajara","Monterrey")
+k
+k["Escuela3","Toluca"]
+  k["Escuela5","Guadalajara"]
+  k["Escuela1","Pachuca"]
 
 
 2)
