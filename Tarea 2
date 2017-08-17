@@ -1,0 +1,12 @@
+#### TAREA 3 ####
+ # Transformación de una variable de tipo caracter y/o factor a variable tipo numérico
+ # se utiliza   as.numeric   ejemplo:
+ 
+ variable <- as.numeric(variable)
+ 
+ # El cambio de variable  de factor a numérico en la practica 5 sería:
+ 
+ mti2015$ENT <- as.numeric(mti2015$ENT)
+ class(mti2015$ENT)
+ 
+ ###La variable ahora es numérica
